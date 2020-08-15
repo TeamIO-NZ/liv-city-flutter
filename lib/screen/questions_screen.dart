@@ -184,6 +184,9 @@ class _SingleQuestionScreenState extends State<SingleQuestionScreen> {
   final _QuestionsScreenState parent;
   _SingleQuestionScreenState({this.feature, this.parent});
 
+  double _rating = 3;
+  String feedback = "";
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -263,13 +266,39 @@ class _SingleQuestionScreenState extends State<SingleQuestionScreen> {
                       }
                     },
                     onRatingUpdate: (rating) {
-                      print(rating);
+                      rating = _rating;
                     },
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 20),
+                  ),
+                  Text("Feedback: (Optional)"),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: TextField(
+                      maxLines: null,
+                      keyboardType: TextInputType.multiline,
+                      decoration: InputDecoration(
+                        hintText: "Enter feedback here."
+                      ),
+                      onChanged: (value) {
+                        feedback = value;
+                      },
+                    ),
                   ),
                   Spacer(),
                 ],
               ),
             )),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+        floatingActionButton: FloatingActionButton.extended(
+          onPressed: () {
+            parent.removeFeature(feature);
+            Navigator.pop(context);
+          },
+          icon: Icon(Icons.send),
+          label: Text("Submit Feedback"),
+        ),
       ),
     );
   }
