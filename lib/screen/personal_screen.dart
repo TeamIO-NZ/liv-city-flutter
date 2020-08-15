@@ -1,12 +1,12 @@
 import 'dart:math';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:liv_city_flutter/main.dart';
 import 'package:liv_city_flutter/screen/chat_screen.dart';
 import 'package:liv_city_flutter/screen/home_screen.dart';
 import 'package:liv_city_flutter/screen/questions_screen.dart';
+import 'package:charts_flutter/flutter.dart' as charts;
 
 class PersonalScreen extends StatefulWidget {
   @override
@@ -53,19 +53,19 @@ class _PersonalScreenState extends State<PersonalScreen> {
               ),
             ),
             constraints: BoxConstraints.expand(),
-            child: Stack(
-              children: [
-                ListView.builder(
-                  itemCount: 400,
-                  itemBuilder: (context, index) {
-                    return ListTile(
-                      title: Text("Tree"),
-                      leading: Icon(Icons.nature),
-                    );
-                  }
-                ),
-              ],
-            )),
+            child: ListView.builder(
+              itemCount: 1,
+              itemBuilder: (context, index) {
+                return Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 250,
+                    child: charts.LineChart(_createSampleData(), animate: true, behaviors: []),
+                  ),
+                );
+              },
+            )
+        ),
         bottomNavigationBar: ConvexAppBar(
             backgroundColor: Colors.white,
             color: Colors.black,
@@ -96,4 +96,31 @@ class _PersonalScreenState extends State<PersonalScreen> {
       ),
     );
   }
+
+  static List<charts.Series<LinearSales, int>> _createSampleData() {
+    final data = [
+      new LinearSales(2015, 1761 + 3003),
+      new LinearSales(2016, 1957 + 3908),
+      new LinearSales(2017, 2544 + 3829),
+      new LinearSales(2018, 2160 + 3212),
+      new LinearSales(2019, 1821 + 3545),
+    ];
+
+    return [
+      new charts.Series<LinearSales, int>(
+        id: 'Crimes',
+        domainFn: (LinearSales sales, _) => sales.year,
+        measureFn: (LinearSales sales, _) => sales.value,
+        data: data,
+      )
+    ];
+  }
+}
+
+
+class LinearSales {
+  final int year;
+  final int value;
+
+  LinearSales(this.year, this.value);
 }
