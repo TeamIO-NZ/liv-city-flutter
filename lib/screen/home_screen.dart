@@ -58,6 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
             TabItem(icon: Icons.home, title: 'Home'),
             TabItem(icon: Icons.map, title: 'Places'),
             TabItem(icon: Icons.chat, title: 'Feedback'),
+            TabItem(icon: Icons., title: 'Feedback'),
           ],
           style: TabStyle.textIn,
           onTap: (i) {

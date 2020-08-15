@@ -57,7 +57,7 @@ class _ChatScreenState extends State<ChatScreen> {
                 ListView.builder(
                   itemCount: 4,
                   itemBuilder: (context, index) =>
-                      MessageTile(message: "Test", sendByMe: _random.nextBool()),
+                      MessageTile(message: "Test", sendByMe: (index % 2 == 0)),
                 ),
               ],
             )),
@@ -116,8 +116,9 @@ class MessageTile extends StatelessWidget {
                     bottomRight: Radius.circular(23)),
             gradient: LinearGradient(
               colors: sendByMe
-                  ? [const Color(0xff007EF4), const Color(0xff2A75BC)]
-                  : [const Color(0x1AFFFFFF), const Color(0x1AFFFFFF)],
+                  ? [const Color(0xff007EF4), const Color(0xff007EF4)]
+                  : [const Color(0xff78909C), const Color(0xff78909C)],
+                //  : [const Color(0x1AFFFFFF), const Color(0x1AFFFFFF)],
             )),
         child: Text(message,
             textAlign: TextAlign.start,

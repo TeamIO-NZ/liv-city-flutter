@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:liv_city_flutter/screen/chat_screen.dart';
 import 'package:liv_city_flutter/screen/home_screen.dart';
 import 'package:liv_city_flutter/screen/questions_screen.dart';
 
@@ -12,7 +13,7 @@ class LivCityApp extends StatelessWidget {
       routes: {
         "/home": (context) => HomeScreen(),
         "/questions": (context) => QuestionsScreen(),
-        //"/feedback": (context) => New(),
+        "/chat": (context) => ChatScreen(),
       },
       title: "LivCity",
     );
