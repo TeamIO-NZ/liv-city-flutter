@@ -33,7 +33,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
       : ListView.builder(
           itemCount: _features.features.length,
           itemBuilder: (context, index) =>
-              createQuestion(context, _features.features[index]),
+              createQuestion(context, index, _features.features[index]),
         );
 
   Future<String> _loadPlacesJson() async {
@@ -44,13 +44,19 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
     return FeatureList.fromJson(await jsonDecode(await _loadPlacesJson()));
   }
 
-  Widget createQuestion(BuildContext context, Feature feature) {
+  Widget createQuestion(BuildContext context, int index, Feature feature) {
     return GestureDetector(
-      onTap: () {
-        Navigator.push(
+      onTap: () async {
+       int object = await Navigator.push(
             context,
             new MaterialPageRoute(
-                builder: (context) => SingleQuestionScreen(feature: feature)));
+                builder: (context) => SingleQuestionScreen(feature: feature, index: index)));
+       debugPrint(object.toString());
+       if (object != null) {
+         setState(() {
+           _features.features.removeAt(object);
+         });
+       }
       },
       child: Container(
         height: 250,
@@ -171,18 +177,18 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
 
 class SingleQuestionScreen extends StatefulWidget {
   final Feature feature;
-  final _QuestionsScreenState parent;
-  SingleQuestionScreen({this.feature, this.parent});
+  final int index;
+  SingleQuestionScreen({this.feature, this.index});
 
   @override
   _SingleQuestionScreenState createState() =>
-      _SingleQuestionScreenState(feature: feature, parent: parent);
+      _SingleQuestionScreenState(feature: feature, index: index);
 }
 
 class _SingleQuestionScreenState extends State<SingleQuestionScreen> {
   final Feature feature;
-  final _QuestionsScreenState parent;
-  _SingleQuestionScreenState({this.feature, this.parent});
+  final int index;
+  _SingleQuestionScreenState({this.feature, this.index});
 
   double _rating = 3;
   String feedback = "";
@@ -293,8 +299,7 @@ class _SingleQuestionScreenState extends State<SingleQuestionScreen> {
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         floatingActionButton: FloatingActionButton.extended(
           onPressed: () {
-            parent.removeFeature(feature);
-            Navigator.pop(context);
+            Navigator.pop(context, index);
           },
           icon: Icon(Icons.send),
           label: Text("Submit Feedback"),
