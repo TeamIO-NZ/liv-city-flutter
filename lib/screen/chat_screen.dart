@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:liv_city_flutter/main.dart';
 import 'package:liv_city_flutter/screen/home_screen.dart';
-import 'package:liv_city_flutter/screen/personal_screen.dart';
+import 'package:liv_city_flutter/screen/stats_screen.dart';
 import 'package:liv_city_flutter/screen/questions_screen.dart';
 
 class ChatScreen extends StatefulWidget {
@@ -42,23 +42,32 @@ class _ChatScreenState extends State<ChatScreen> {
         ),
         backgroundColor: Colors.black,
         body: Container(
-            decoration: new BoxDecoration(
-              color: Colors.white,
-              borderRadius: new BorderRadius.only(
-                topLeft: const Radius.circular(24.0),
-                topRight: const Radius.circular(24.0),
-              ),
+          decoration: new BoxDecoration(
+            color: Colors.white,
+            borderRadius: new BorderRadius.only(
+              topLeft: const Radius.circular(24.0),
+              topRight: const Radius.circular(24.0),
             ),
-            constraints: BoxConstraints.expand(),
-            child: Stack(
-              children: [
-                ListView.builder(
+          ),
+          constraints: BoxConstraints.expand(),
+          child: Stack(
+            children: [
+              ListView.builder(
                   itemCount: 4,
-                  itemBuilder: (context, index) =>
-                      MessageTile(message: "Test", sendByMe: (index % 2 == 0)),
-                ),
-              ],
-            )),
+                  itemBuilder: (context, index) {
+                    switch (index) {
+                      case 0:
+                        return MessageTile(
+                            message: "Test", sendByMe: (index % 2 == 0));
+                        break;
+                      default:
+                        return MessageTile(
+                            message: "Test", sendByMe: (index % 2 == 0));
+                    }
+                  })
+            ],
+          ),
+        ),
         bottomNavigationBar: ConvexAppBar(
             backgroundColor: Colors.white,
             color: Colors.black,
@@ -67,7 +76,7 @@ class _ChatScreenState extends State<ChatScreen> {
               TabItem(icon: Icons.home, title: 'Home'),
               TabItem(icon: Icons.map, title: 'Places'),
               TabItem(icon: Icons.chat, title: 'Feedback'),
-              TabItem(icon: Icons.account_circle, title: 'Personal'),
+              TabItem(icon: Icons.equalizer, title: 'Charts'),
             ],
             style: TabStyle.textIn,
             initialActiveIndex: 2,
@@ -121,7 +130,7 @@ class MessageTile extends StatelessWidget {
               colors: sendByMe
                   ? [const Color(0xff007EF4), const Color(0xff007EF4)]
                   : [const Color(0xff78909C), const Color(0xff78909C)],
-                //  : [const Color(0x1AFFFFFF), const Color(0x1AFFFFFF)],
+              //  : [const Color(0x1AFFFFFF), const Color(0x1AFFFFFF)],
             )),
         child: Text(message,
             textAlign: TextAlign.start,

@@ -8,7 +8,7 @@ import 'package:liv_city_flutter/data/feature.dart';
 import 'package:liv_city_flutter/main.dart';
 import 'package:liv_city_flutter/screen/chat_screen.dart';
 import 'package:liv_city_flutter/screen/home_screen.dart';
-import 'package:liv_city_flutter/screen/personal_screen.dart';
+import 'package:liv_city_flutter/screen/stats_screen.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class QuestionsScreen extends StatefulWidget {
@@ -150,7 +150,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
               TabItem(icon: Icons.home, title: 'Home'),
               TabItem(icon: Icons.map, title: 'Places'),
               TabItem(icon: Icons.chat, title: 'Feedback'),
-              TabItem(icon: Icons.account_circle, title: 'Personal'),
+              TabItem(icon: Icons.equalizer, title: 'Charts'),
             ],
             style: TabStyle.textIn,
             initialActiveIndex: 1,

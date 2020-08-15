@@ -33,7 +33,7 @@ class _PersonalScreenState extends State<PersonalScreen> {
               Visibility(
                 visible: true,
                 child: Text(
-                  'Personal Logs',
+                  'Charts',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 12.0,
@@ -58,13 +58,25 @@ class _PersonalScreenState extends State<PersonalScreen> {
               itemBuilder: (context, index) {
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    height: 250,
-                    //  child: charts.LineChart(_createSampleData(), animate: true, behaviors: []),
-                    child: charts.ScatterPlotChart(
-                        _createSampleData(),
-                        animate: true,
-                    ),
+                  child: Column(
+                    children: [
+                      Text("Crimes rates"),
+                      Container(
+                        height: 200,
+                        child: charts.TimeSeriesChart(
+                            _createCrimesData(),
+                            animate: true,
+                        ),
+                      ),
+                      Text("\nPollution (PPM)"),
+                      Container(
+                        height: 200,
+                        child: charts.TimeSeriesChart(
+                          _createPollutionData(),
+                          animate: true,
+                        ),
+                      ),
+                    ],
                   ),
                 );
               },
@@ -77,7 +89,7 @@ class _PersonalScreenState extends State<PersonalScreen> {
               TabItem(icon: Icons.home, title: 'Home'),
               TabItem(icon: Icons.map, title: 'Places'),
               TabItem(icon: Icons.chat, title: 'Feedback'),
-              TabItem(icon: Icons.account_circle, title: 'Personal'),
+              TabItem(icon: Icons.equalizer, title: 'Charts'),
             ],
             style: TabStyle.textIn,
             initialActiveIndex: 3,
@@ -100,29 +112,74 @@ class _PersonalScreenState extends State<PersonalScreen> {
     );
   }
 
-  static List<charts.Series<LinearSales, int>> _createSampleData() {
+  static List<charts.Series<DatedCrimes, DateTime>> _createCrimesData() {
     final data = [
-      new LinearSales(2015, 1761 + 3003),
-      new LinearSales(2016, 1957 + 3908),
-      new LinearSales(2017, 2544 + 3829),
-      new LinearSales(2018, 2160 + 3212),
-      new LinearSales(2019, 1821 + 3545),
+      new DatedCrimes(new DateTime(2015, 5),  1761),
+      new DatedCrimes(new DateTime(2015, 12), 3003),
+      new DatedCrimes(new DateTime(2016, 5),  1957),
+      new DatedCrimes(new DateTime(2016, 12), 3908),
+      new DatedCrimes(new DateTime(2017, 5),  2544),
+      new DatedCrimes(new DateTime(2017, 12), 3829),
+      new DatedCrimes(new DateTime(2018, 5),  2160),
+      new DatedCrimes(new DateTime(2018, 12), 3212),
+      new DatedCrimes(new DateTime(2019, 5),  1821),
+      new DatedCrimes(new DateTime(2019, 12), 3540),
     ];
 
     return [
-      new charts.Series<LinearSales, int>(
+      new charts.Series<DatedCrimes, DateTime>(
         id: 'Crimes',
-        domainFn: (LinearSales sales, _) => sales.year,
-        measureFn: (LinearSales sales, _) => sales.value,
+        domainFn: (DatedCrimes crimes, _) => crimes.date,
+        measureFn: (DatedCrimes crimes, _) => crimes.value,
+        data: data,
+      )
+    ];
+  }
+
+  static List<charts.Series<DatedPollution, DateTime>> _createPollutionData() {
+    final data = [
+      new DatedPollution(new DateTime(2015, 1),  15.3),
+      new DatedPollution(new DateTime(2015, 6),  12.3),
+      new DatedPollution(new DateTime(2015, 12), 15.5),
+
+      new DatedPollution(new DateTime(2016, 1),  13.3),
+      new DatedPollution(new DateTime(2016, 6),  11.2),
+      new DatedPollution(new DateTime(2016, 12), 11.7),
+
+      new DatedPollution(new DateTime(2017, 1),  14),
+      new DatedPollution(new DateTime(2017, 6),  14.5),
+      new DatedPollution(new DateTime(2017, 12), 10.1),
+
+      new DatedPollution(new DateTime(2018, 1),  14.1),
+      new DatedPollution(new DateTime(2018, 6),  11.2),
+      new DatedPollution(new DateTime(2018, 12), 12.5),
+
+      new DatedPollution(new DateTime(2019, 1),  14.1),
+      new DatedPollution(new DateTime(2019, 6),  15.1),
+      new DatedPollution(new DateTime(2019, 12), 13),
+    ];
+
+    return [
+      new charts.Series<DatedPollution, DateTime>(
+        id: 'Pollution',
+        domainFn: (DatedPollution crimes, _) => crimes.date,
+        measureFn: (DatedPollution crimes, _) => crimes.ppm,
         data: data,
       )
     ];
   }
 }
 
-class LinearSales {
-  final int year;
+class DatedCrimes {
+  final DateTime date;
   final int value;
 
-  LinearSales(this.year, this.value);
+  DatedCrimes(this.date, this.value);
+}
+
+class DatedPollution {
+  final DateTime date;
+  final double ppm;
+
+  DatedPollution(this.date, this.ppm);
 }
