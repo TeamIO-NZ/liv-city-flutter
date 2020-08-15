@@ -51,7 +51,6 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
             context,
             new MaterialPageRoute(
                 builder: (context) => SingleQuestionScreen(feature: feature, index: index)));
-       debugPrint(object.toString());
        if (object != null) {
          setState(() {
            _features.features.removeAt(object);
