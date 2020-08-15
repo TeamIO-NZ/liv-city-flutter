@@ -60,12 +60,15 @@ class _PersonalScreenState extends State<PersonalScreen> {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     height: 250,
-                    child: charts.LineChart(_createSampleData(), animate: true, behaviors: []),
+                    //  child: charts.LineChart(_createSampleData(), animate: true, behaviors: []),
+                    child: charts.ScatterPlotChart(
+                        _createSampleData(),
+                        animate: true,
+                    ),
                   ),
                 );
               },
-            )
-        ),
+            )),
         bottomNavigationBar: ConvexAppBar(
             backgroundColor: Colors.white,
             color: Colors.black,
@@ -116,7 +119,6 @@ class _PersonalScreenState extends State<PersonalScreen> {
     ];
   }
 }
-
 
 class LinearSales {
   final int year;

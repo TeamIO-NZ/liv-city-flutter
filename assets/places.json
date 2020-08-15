@@ -1,0 +1,1577 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "ReserveName": "A&P Park",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/a-and-p-park",
+        "Description": "The home of Marlborough's agricultural and pastoral shows, the A & P showgrounds boast a large grandstand, pavilion, stockholding pens and arena. Also catering to Marlborough's sporting needs, the park is the main venue for many football and softball games throughout the year. The Farmers' Market is held here every Sunday morning.",
+        "SHAPEarea": 94405.818353095,
+        "SHAPElen": 1246.1966253072992
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "ReserveName": "Alfred Stream Reserve",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/alfred-stream-reserve",
+        "Description": "Open space providing for informal recreational activities.",
+        "SHAPEarea": 2955.852933975,
+        "SHAPElen": 233.06190795145147
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "ReserveName": "Athletic Park",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/athletic-park",
+        "Description": "Blenheim's number one athletics facility, Athletic Park boasts a large grandstand overlooking an asphalt cycle track and grassed arena including a grass running track. Blenheim Smallbore Rifle Club is also located on site.",
+        "SHAPEarea": 36282.539749115,
+        "SHAPElen": 796.1415327661757
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ReserveName": "Auckland Street Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/auckland-street-reserve",
+        "Description": "Auckland Street Reserve is a designated dog exercise area where pets can be run off the lead but under the control of the owners. The reserve is also the home of the Picton Skate Park facility which offers 1500 square metres of quality skateboard and rollerblade area designed around a 'streetscape' theme.",
+        "SHAPEarea": 17063.04046409,
+        "SHAPElen": 768.3352495145667
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "ReserveName": "Ballinger Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/ballinger-park",
+        "Description": "Ballinger Park in the heart of Riversdale, is a reserve planted for and by the community. These plantings are now well established providing a great frame for this reserve. The park includes the longest and highest slide in Blenheim plus wooden structures linking two large soil mounds.",
+        "SHAPEarea": 6296.306977855,
+        "SHAPElen": 325.9040475081334
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "ReserveName": "Beach Road Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/beach-road-reserve",
+        "Description": "A landscaped open space for informal recreation and activities. A walkway along the stream also exists.",
+        "SHAPEarea": 26440.87693808,
+        "SHAPElen": 840.8047832546603
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "ReserveName": "Blairich Reserve",
+        "Location": "Awatere and Flaxbourne",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/blairich-recreation-reserve",
+        "Description": "This reserve is located 12 km in from State Highway 1 on the Awatere Valley Road. The reserve is situated between the road to the north, the Awatere River to the south and the outlet of the Blairich Stream to the west. When the Awatere River is in flood, water covers a large proportion of the reserve. This is one of Council's designated freedom camping sites (two night stay).",
+        "SHAPEarea": 66013.022411175,
+        "SHAPElen": 2645.985575596995
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "ReserveName": "Blenheim Skate Park",
+        "Location": "Blenheim",
+        "Type": "Skate Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/blenheim-skate-park",
+        "Description": "A purpose-built skate park with 1200 m² concrete 'streetscape' - 1/4 pipes, flat banks, manual pad, steps and rails.",
+        "SHAPEarea": 1421.26343858,
+        "SHAPElen": 184.03646183725766
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "ReserveName": "Bobs Bay Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/bob%27s-bay-reserve",
+        "Description": "Located near Picton, 30 minutes' walk from Shelley Beach with access from both Shelley Beach and Victoria Domain Loop Road.",
+        "SHAPEarea": 1309.67561715,
+        "SHAPElen": 178.4641256671068
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "ReserveName": "Brown River Reserve",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/brown-river-reserve",
+        "Description": "A great swimming spot or picnic area.",
+        "SHAPEarea": 4873.685515325,
+        "SHAPElen": 413.21970866539846
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "ReserveName": "Bruce Jackson Memorial Daffodil Glade Pollard Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 2264.47681534,
+        "SHAPElen": 245.2333576822469
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "ReserveName": "Burleigh Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/burleigh-park",
+        "Description": "Large historic trees create a wonderful ambience for playing or picnicking in this peaceful reserve.",
+        "SHAPEarea": 7320.24357213,
+        "SHAPElen": 478.35125401502467
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "ReserveName": "Camborne Green",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/cambourne-green",
+        "Description": "A large green open space within the centre of a developing subdivision with room to ride bikes and kick balls. Has a large challenging playground. ",
+        "SHAPEarea": 5535.98747279,
+        "SHAPElen": 474.2269657959803
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "ReserveName": "Cedar Grove Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 3749.192976435,
+        "SHAPElen": 381.2219262140484
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "ReserveName": "Ching Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/ching-park",
+        "Description": "This small park allows access to the Opawa River and walkway. The park includes four protected mature walnut trees.",
+        "SHAPEarea": 3266.36330853,
+        "SHAPElen": 308.7426799734279
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "ReserveName": "Churchill Glade - Pollard Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 20619.29336561,
+        "SHAPElen": 588.5133705661303
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "ReserveName": "Churchward Park",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 91918.940494375,
+        "SHAPElen": 1245.3017950414444
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "ReserveName": "Cissy Bay",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 6257.835762215,
+        "SHAPElen": 368.79204632978116
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 19,
+        "ReserveName": "Clearwater Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/clearwater-reserve",
+        "Description": "A small neighbourhood reserve with a junior playground and swingset. ",
+        "SHAPEarea": 749.07229315,
+        "SHAPElen": 112.38232048407207
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 20,
+        "ReserveName": "College Park",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/college-park",
+        "Description": "Home to Marlborough Hockey and boasting a state of the art Wett turf, College Park is an extension of the Marlborough Boys' College sportsfields. Not only is there a hockey turf, but also a large green area that has a synthetic cricket strip, one football pitch and one rugby field.",
+        "SHAPEarea": 42994.577585875,
+        "SHAPElen": 946.1708050235682
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 21,
+        "ReserveName": "Collins Memorial Reserve",
+        "Location": "Wairau",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/collins-memorial-reserve",
+        "Description": "A small reserve between Blenheim and Picton dedicated to the memory of Lionel and Harold Collins who were foundation members of the Marlborough Branch of the NZ Deerstalkers Association who established this reserve as a deer and game park in 1967.",
+        "SHAPEarea": 7247.934207565,
+        "SHAPElen": 353.53879068336505
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 22,
+        "ReserveName": "Covent Gardens Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/covent-gardens",
+        "Description": "A small neighbourhood reserve with a junior playground. ",
+        "SHAPEarea": 1098.765745985,
+        "SHAPElen": 225.51683096773397
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 23,
+        "ReserveName": "Double Bay Reserve",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/double-bay-reserve",
+        "Description": "A sheltered open space for informal recreation and activities.",
+        "SHAPEarea": 6842.25269349,
+        "SHAPElen": 542.9899732352443
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 24,
+        "ReserveName": "Elmwood Avenue Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 1820.097071195,
+        "SHAPElen": 202.52182606454613
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 25,
+        "ReserveName": "Eltham Road Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/eltham-road-reserve",
+        "Description": "This reserve is home to four impressive large trees, with a small playground and the Provincial Guides hut.",
+        "SHAPEarea": 2156.58177663,
+        "SHAPElen": 189.96009386179873
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 26,
+        "ReserveName": "Endeavour Heights Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 22153.4501709,
+        "SHAPElen": 1235.1498682434083
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 27,
+        "ReserveName": "Endeavour Park",
+        "Location": "Picton",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/endeavour-park",
+        "Description": "Endeavour Park is Picton’s sports hub. It boasts a modern sports pavilion that provides facilities for rugby, football and cricket. The grounds cater for rugby and football in the winter and cricket and touch rugby in the summer. Work is underway on netball courts for Endeavour Park.",
+        "SHAPEarea": 86840.82925381,
+        "SHAPElen": 1350.54746077431
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 28,
+        "ReserveName": "Eric Young Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 1982.19749254,
+        "SHAPElen": 193.15920058115333
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 29,
+        "ReserveName": "Faulkland Drive Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 2073.716343005,
+        "SHAPElen": 275.3281761644015
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 30,
+        "ReserveName": "Ferry Bridge Picnic Area",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 2076.406291085,
+        "SHAPElen": 184.46748219203403
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 31,
+        "ReserveName": "Founder's Cemetery",
+        "Location": "Renwick",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 870.905341875,
+        "SHAPElen": 118.94880962294901
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 32,
+        "ReserveName": "Fultons Stream Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 13013.27550979,
+        "SHAPElen": 921.1365542140568
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 33,
+        "ReserveName": "George Powell Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/george-powell-reserve",
+        "Description": "A neighbourhood reserve providing linkage between several streets in the Witherlea area. A small area for kicking a ball around and a swingset included.",
+        "SHAPEarea": 3630.31618521,
+        "SHAPElen": 316.1802970019845
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 34,
+        "ReserveName": "George Young Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/george-young-reserve",
+        "Description": "A neighbourhood reserve providing linkages through the Forest Park Drive area. Includes a large playground and space to kick a ball.",
+        "SHAPEarea": 2960.59403964,
+        "SHAPElen": 292.1263870468426
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 35,
+        "ReserveName": "Glenhill Heights Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 1998.43258957,
+        "SHAPElen": 215.44811587845288
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 36,
+        "ReserveName": "Hammond Reserve",
+        "Location": "Renwick",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/hammond-reserve",
+        "Description": "A small reserve with a playground suitable for children of all ages.",
+        "SHAPEarea": 728.394137945,
+        "SHAPElen": 114.06784580055601
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 37,
+        "ReserveName": "Harling Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/harling-park",
+        "Description": "This large park is being developed using a Japanese park theme. It also provides open space for play and picnicking and walking access to the Wither Hills Farm Park.",
+        "SHAPEarea": 61267.96088724,
+        "SHAPElen": 1528.305433023267
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 38,
+        "ReserveName": "Havelock Memorial Reserve",
+        "Location": "Havelock",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/havelock-memorial-reserve",
+        "Description": "A quiet resting place in the centre of the village commemorating fallen soldiers from WWI and WWII, and lost crew from the Schooner Ronga.",
+        "SHAPEarea": 483.842074505,
+        "SHAPElen": 103.99500458325909
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 39,
+        "ReserveName": "Havelock Quay Picnic Area",
+        "Location": "Havelock",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/havelock-quay-picnic-area",
+        "Description": "A tranquil picnic area overlooking the Havelock Marina.",
+        "SHAPEarea": 1630.72620673,
+        "SHAPElen": 311.6145807231436
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 40,
+        "ReserveName": "Havelock Skate Park",
+        "Location": "Havelock",
+        "Type": "Skate Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/havelock-war-memorial-park",
+        "Description": "Havelock Domain has a small skate park area, 180 m2 concrete with one-quarter pipe, fun box, kinked rail and rail.",
+        "SHAPEarea": 401.74941159,
+        "SHAPElen": 80.21000214142167
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 41,
+        "ReserveName": "Havelock War Memorial Park",
+        "Location": "Havelock",
+        "Type": "Reserve/Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/havelock-war-memorial-park",
+        "Description": "With its recently completed modern sports pavilion, the Havelock Memorial Park holds a pride of place in this small community. Facilities include a main sports ground catering for winter and summer rugby, soccer, cricket and league, along with netball and tennis courts, skate park, a well laid out playground and the Havelock Motor Camp and marina.",
+        "SHAPEarea": 22733.88034807,
+        "SHAPElen": 723.7108512169186
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 42,
+        "ReserveName": "Heather Place Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 849.955954095,
+        "SHAPElen": 146.00460110807668
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 43,
+        "ReserveName": "Henderson Street Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/henderson-street-reserve",
+        "Description": "This small park allows access to the Opawa River and walkway. The park includes a swing set and seat beneath a mature tree. ",
+        "SHAPEarea": 27516.807375915,
+        "SHAPElen": 929.1711212880319
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 44,
+        "ReserveName": "Hitaua Place Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/hitaua-place-reserve",
+        "Description": "This reserve links two subdivisions together with hard surfacing and play structures with an open area to kick a ball around. ",
+        "SHAPEarea": 1452.419103075,
+        "SHAPElen": 218.96650820437708
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 45,
+        "ReserveName": "Holdaway Street Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/holdaway-street-reserve",
+        "Description": "This small park is great for picnicking with platform seats, play equipment and room to kick a ball.",
+        "SHAPEarea": 2350.547692545,
+        "SHAPElen": 256.2110691144352
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 46,
+        "ReserveName": "Horton Park",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/horton-park",
+        "Description": "Horton Park meets the needs of summer and winter sports as the base for Marlborough cricket in summer and netball in winter. This ground accommodates three cricket blocks, 12 netball courts and an extensive pavilion and clubrooms. During the summer months, tennis courts are also available. Extensive parking, 24-hour toilets and a children's playground mean that this park offers something for everyone.",
+        "SHAPEarea": 51504.69907907,
+        "SHAPElen": 1191.60600576418
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 47,
+        "ReserveName": "Jordan Green",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 78.89603527,
+        "SHAPElen": 38.090266505009986
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 48,
+        "ReserveName": "Kensington Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/kensington-reserve",
+        "Description": "A small green space with seating amongst young trees to rest on while the children play on the junior play equipment.",
+        "SHAPEarea": 1465.247185505,
+        "SHAPElen": 200.68465393976265
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 49,
+        "ReserveName": "Koromiko Forest Reserve",
+        "Location": "Wairau",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/koromiko-forest-reserve",
+        "Description": "This 4ha reserve is the best example of valley flat treelands in the Para Ecological District, if not the wider region, and contains a nationally endangered plant, the yellow mistletoe (Alepis flavida). Koromiko Forest Planting. This reserve is now being managed as a forest reserve with a revegetation programme well underway.",
+        "SHAPEarea": 34320.792457025,
+        "SHAPElen": 1149.150229848996
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 50,
+        "ReserveName": "Kowhai Drive Reserve",
+        "Location": "Renwick",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/kowhai-drive-reserve",
+        "Description": "Kowhai Drive reserve is an open green space with a meandering path through large specimen trees.",
+        "SHAPEarea": 4749.481185805,
+        "SHAPElen": 374.74139942116875
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 51,
+        "ReserveName": "Lansdowne Park",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/lansdowne-park",
+        "Description": "Lansdowne Park boasts nearly 13 ha of sports playing surface including Marlborough’s Premiere Rugby ground. At Present Lansdowne Park hosts rugby in winter and touch rugby, junior cricket, softball and sand volleyball in summer. Lansdowne Park is currently undergoing major redevelopment ",
+        "SHAPEarea": 177306.085831675,
+        "SHAPElen": 1925.209073349827
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 52,
+        "ReserveName": "Leafmere Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 6299.173258455,
+        "SHAPElen": 536.7875873351733
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 53,
+        "ReserveName": "Lions Reserve",
+        "Location": "Renwick",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 6216.203188805,
+        "SHAPElen": 789.6559035977114
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 54,
+        "ReserveName": "Liz Davidson Place",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/liz-davidson-place",
+        "Description": "A CBD pocket park developed in 2012 in conjunction with the re-development of the town centre and dedicated to the ex-mayor and councillor Liz Davidson.",
+        "SHAPEarea": 791.399395715,
+        "SHAPElen": 112.59902981527499
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 55,
+        "ReserveName": "Log Wharf",
+        "Location": "Havelock",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/log-wharf",
+        "Description": "A lovely picnic spot on the outskirts of the township overlooking the Estuary. ",
+        "SHAPEarea": 835.305803635,
+        "SHAPElen": 145.41006101112754
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 56,
+        "ReserveName": "London Quay",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/london-quay",
+        "Description": "The junction of London Quay and Wellington Street is a place to relax, catch a market, board a launch or to access the Foreshore, Shelley Beach and Victoria Domain.",
+        "SHAPEarea": 9091.84024969,
+        "SHAPElen": 559.7179153677325
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 57,
+        "ReserveName": "Mahakipawa Picnic Area",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 946.90841223,
+        "SHAPElen": 165.8820501453124
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 58,
+        "ReserveName": "Manor Place Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/manor-place-reserve",
+        "Description": "A well tree’d green oasis along Redwood Street providing linkages between Lewis Street and Manor Place. Lots of room for ball games. ",
+        "SHAPEarea": 3803.901737515,
+        "SHAPElen": 752.7125351655658
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 59,
+        "ReserveName": "Marchburn Layby",
+        "Location": "Wairau",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 251.57175916,
+        "SHAPElen": 93.97001246501893
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 60,
+        "ReserveName": "Marshall Place Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 20538.29891335,
+        "SHAPElen": 1247.0206098289334
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 61,
+        "ReserveName": "McKendry Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/mckendry-park",
+        "Description": "An old plum orchard bounded by Murphys Creek on one side and by walnut trees on the other three. The orchard has been under-planted with a large collection of daffodils. Please help yourself to the fruit.",
+        "SHAPEarea": 10610.922171065,
+        "SHAPElen": 436.46288541231786
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 62,
+        "ReserveName": "Memorial Park",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/memorial-park",
+        "Description": "Memorial Park is in two parts, the large flat area to the north was once a tidal lagoon. Rowing regattas were a regular event on the lagoon with the Victoria Domain creating a natural grandstand. However, in 1950 the area was reclaimed and became part of the Victoria Domain War Memorial Park. The second part of the park gives access to the marina, Shelley Beach, Picton Foreshore, Waikawa Foreshore and Victoria Domain.",
+        "SHAPEarea": 33019.458963415,
+        "SHAPElen": 1298.7579062453906
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 63,
+        "ReserveName": "Memorial Park Entranceway",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 1722.795784185,
+        "SHAPElen": 168.27453061399612
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 64,
+        "ReserveName": "Mill Stream Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 1830.39732047,
+        "SHAPElen": 168.30886180730752
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 65,
+        "ReserveName": "Moana View Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/moana-view",
+        "Description": "This reserve provides a pleasant passive grassed area with native perimeter plantings. It also doubles as a stormwater swale and was initially planted with local community involvement.",
+        "SHAPEarea": 1282.583775655,
+        "SHAPElen": 154.74056655594742
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 66,
+        "ReserveName": "Morrington Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 2517.434089055,
+        "SHAPElen": 327.0412152971524
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 67,
+        "ReserveName": "Murphys Creek Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/murphys-creek-reserve",
+        "Description": "A lovely reserve set amongst established trees and with a stream meandering past, play equipment for the children and lots of space to play.",
+        "SHAPEarea": 5117.502372985,
+        "SHAPElen": 375.62884407393886
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 68,
+        "ReserveName": "Nelson Square",
+        "Location": "Picton",
+        "Type": "Reserve/Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/nelson-square",
+        "Description": "A historic and central feature of Picton that is used for cricket in summer. The square is also a popular spot for picnicking and other informal sports.",
+        "SHAPEarea": 7937.30161902,
+        "SHAPElen": 315.85015203041905
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 69,
+        "ReserveName": "Ohingaroa Reserve",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/ohingaroa-reserve",
+        "Description": "A natural open space for relaxing, picnicking or small boat launching within the beautiful Kenepuru Sound.",
+        "SHAPEarea": 5572.670453115,
+        "SHAPElen": 470.90598077584104
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 70,
+        "ReserveName": "Oliver Park",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/oliver-park",
+        "Description": "Used for both summer and winter sports, Oliver Park has rugby fields and football pitches in the winter and cricket ovals in the summer. Extensive parking and an adventurous children's playground broaden the appeal of this park.",
+        "SHAPEarea": 51086.66784383,
+        "SHAPElen": 918.1775218455911
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 71,
+        "ReserveName": "Opawa St Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 2186.989414105,
+        "SHAPElen": 261.01474790403967
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 72,
+        "ReserveName": "Opawa Walk",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 11837.2954358,
+        "SHAPElen": 1470.0145072598139
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 73,
+        "ReserveName": "Parklands Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/parklands-reserve",
+        "Description": "Located in Picton with access from Waikawa Road.",
+        "SHAPEarea": 1001.18552116,
+        "SHAPElen": 128.8343468101212
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 74,
+        "ReserveName": "Picton Foreshore Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/picton-foreshore",
+        "Description": "Picton's showpiece, the Foreshore Reserve is a must when visiting the Marlborough Sounds. Stroll along the paved boulevard, swim from the sandy beach, sunbathe on the lawns, ride on the model railway, or watch the kids play in the playground and water play area. A relaxing way to enjoy the beauty and character of Marlborough's gateway to the Sounds.",
+        "SHAPEarea": 22869.872006125,
+        "SHAPElen": 852.8709008263355
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 75,
+        "ReserveName": "Picton Skate Park",
+        "Location": "Picton",
+        "Type": "Skate Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/auckland-street-reserve",
+        "Description": "The Picton Youth Park facility offers 1500 square metres of quality skateboard and rollerblade area designed around a 'streetscape' theme.",
+        "SHAPEarea": 1792.96277798,
+        "SHAPElen": 186.10363527091326
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 76,
+        "ReserveName": "Pollard Park",
+        "Location": "Blenheim",
+        "Type": "Reserve/Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/pollard-park",
+        "Description": "In easy walking distance from Seymour Square via a marked walkway, Blenheim's premier Pollard Park is Marlborough's showcase with 24.6 ha of wooded parkland, meandering stream, tennis courts and golf course. Also included are floral gardens, a playground, rose gardens, native rockery, rhododendron dell, scented garden, fitness trail and BBQs.",
+        "SHAPEarea": 224508.713494255,
+        "SHAPElen": 2045.502803178615
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 77,
+        "ReserveName": "Powerhouse Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 593.203613875,
+        "SHAPElen": 141.6750808308486
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 78,
+        "ReserveName": "Rai Stream Reserve",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/rai-stream-reserve",
+        "Description": "A charming rural open space providing for informal recreation and activities. Located close to the Rai Valley shops the reserve has a swing and picnic table.",
+        "SHAPEarea": 2945.93027502,
+        "SHAPElen": 245.10658363412918
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 79,
+        "ReserveName": "Rai Valley War Memorial",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 1890.396078825,
+        "SHAPElen": 190.2353564077661
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 80,
+        "ReserveName": "Rapaura Recreation Reserve",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/rapaura-memorial-reserve",
+        "Description": "This reserve borders the lovely Spring Creek and is dedicated to locals who fought in the Great War 1914-1918. It is leased to the Rapaura Tennis Club which manages and manicures six grass courts for play during the summer months. There are green fees to pay and you will find a contact number on the door of the pavilion.",
+        "SHAPEarea": 7268.402983905,
+        "SHAPElen": 353.75334348509017
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 81,
+        "ReserveName": "Rarangi Playground",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/rarangi-playground",
+        "Description": "A challenging playground in an idyllic setting adjacent to large trees and the ocean.",
+        "SHAPEarea": 734.4882796,
+        "SHAPElen": 110.51950056435535
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 82,
+        "ReserveName": "Rata Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/rata-park",
+        "Description": "A relaxing setting of native gardens and lawn set back off the road with picnic table, swing set and seesaws for the whole family.",
+        "SHAPEarea": 7612.64509164,
+        "SHAPElen": 448.55502196549725
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 83,
+        "ReserveName": "Rema Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/rema-reserve",
+        "Description": "A large park with established walnut and gum trees and a meandering path through. Seats are positioned so you can watch the children while they play on the playground.",
+        "SHAPEarea": 7753.81343985,
+        "SHAPElen": 503.5977370674924
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 84,
+        "ReserveName": "Renwick Domain",
+        "Location": "Renwick",
+        "Type": "Reserve/Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/renwick-domain",
+        "Description": "Renwick Domain now boasts a modern sports pavilion which provides facilities for rugby,football and cricket. There is also a skate/bike park and playground to keep the children amused.",
+        "SHAPEarea": 97219.99067979,
+        "SHAPElen": 1575.5650217441578
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 85,
+        "ReserveName": "Renwick Domain Skate Park",
+        "Location": "Wairau/Renwick",
+        "Type": "Skate Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/renwick-domain",
+        "Description": "Renwick Domain is home to a 1300 m2 concrete skate park featuring a spine, wedge, fun box, one-quarter pipe, drop in and grind box. ",
+        "SHAPEarea": 1299.52861566,
+        "SHAPElen": 149.45011441608608
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 86,
+        "ReserveName": "Renwick War Memorial",
+        "Location": "Renwick",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 160.55845364,
+        "SHAPElen": 50.90385006269227
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 87,
+        "ReserveName": "Rewi Murray Polo Park",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/rewi-murray-polo-ground",
+        "Description": "Traditionally this reserve has been used almost exclusively for summer horse polo, however, in 2008 rugby has been played on the grounds and is set to continue to be used as a dual-purpose sportsground in the future. ",
+        "SHAPEarea": 92292.14765219,
+        "SHAPElen": 1727.1286790325582
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 88,
+        "ReserveName": "Rifle Range Drain",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 18174.212294905,
+        "SHAPElen": 1183.0268412415203
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 89,
+        "ReserveName": "Rimu Terrace Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 2401.71626591,
+        "SHAPElen": 226.86009218960893
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 90,
+        "ReserveName": "Riverside Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/riverside-park",
+        "Description": "A tranquil rest stop along the Taylor River. The redeveloped Riverside Park provides access across and along the river via boardwalks, concrete paths and bridges. You can paddle your feet in the water via Amphitheatre steps, feed the ducks from the boardwalk or picnic on the lush grass. ",
+        "SHAPEarea": 35231.02985926,
+        "SHAPElen": 3809.782312734069
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 91,
+        "ReserveName": "Rousehill Reserve",
+        "Location": "Renwick",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/rousehill-reserve",
+        "Description": "Sited in the middle of Renwick with shady plantings and a playground.",
+        "SHAPEarea": 6420.10993156,
+        "SHAPElen": 718.709684403039
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 92,
+        "ReserveName": "Rutledge Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/rutledge-reserve",
+        "Description": "A modular playground designed for the 4-13 year olds.",
+        "SHAPEarea": 770.42302646,
+        "SHAPElen": 217.73627683028533
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93,
+        "ReserveName": "Scotland Street Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/scotland-street-reserve",
+        "Description": "A small reserve with a playground and grassed area.",
+        "SHAPEarea": 10037.047719845,
+        "SHAPElen": 464.38532453569053
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 94,
+        "ReserveName": "Seddon Domain",
+        "Location": "Awatere and Flaxbourne",
+        "Type": "Reserve/Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/seddon-domain",
+        "Description": "For a small rural town, Seddon can rightfully boast that it has one of the better sports grounds in the district. The adjoining public swimming pool, tennis courts, playground and campervan park all add to this excellent facility.",
+        "SHAPEarea": 54445.394047505,
+        "SHAPElen": 981.4409025691953
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95,
+        "ReserveName": "Seddon War Memorial",
+        "Location": "Awatere and Flaxbourne",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 2533.295273825,
+        "SHAPElen": 235.47505204780023
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96,
+        "ReserveName": "Seymour Square",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/seymour-square",
+        "Description": "Only two minutes walk from Blenheim's town centre, the premier park, Seymour Square, is a picturesque park of carefully tended floral gardens, a 15m high historic stone clock tower and a memorial fountain, which offers a spectacular multi-coloured display at night. Subtle lighting of significant features and soft bollard lighting of pathways enhance the picturesque nature of the square. Whether picnicking, strolling or taking time out, Seymour Square offers an ideal setting.",
+        "SHAPEarea": 9249.091610105,
+        "SHAPElen": 372.878104021906
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97,
+        "ReserveName": "Shelley Beach Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/shelley-beach-reserve",
+        "Description": "A grassed area popular for swimming, picnicking and boating.",
+        "SHAPEarea": 2574.672073525,
+        "SHAPElen": 650.9175969785239
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 98,
+        "ReserveName": "Sheps' Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/sheps%27-park",
+        "Description": "Work has started on implementing the development plan for this exciting project. Sheps’ Park was named following the kind donation by Lloyd and Joy Sheppard of the land to QEII Trust for the enjoyment of all. Community plantings on the periphery with the assistance of Arborbank continue to be undertaken and now funding is available, the infrastructure such as the toilet, car parking, power and some of the play area can begin.",
+        "SHAPEarea": 26180.75764754,
+        "SHAPElen": 737.8716854137148
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 99,
+        "ReserveName": "Simonsen Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/simonsen-reserve",
+        "Description": "Floodplain land, long in length, giving ramp and wharf access to the Opawa River.",
+        "SHAPEarea": 22371.55534408,
+        "SHAPElen": 1303.5857007551763
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 100,
+        "ReserveName": "Snowden Crescent Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 2652.99475255,
+        "SHAPElen": 227.70230517911878
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 101,
+        "ReserveName": "Springlands Green",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/springlands-green",
+        "Description": "This small, tree-studded historic park is located beside a meandering stream.",
+        "SHAPEarea": 1872.46078569,
+        "SHAPElen": 211.69412621914307
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 102,
+        "ReserveName": "Stadium 2000 Pocket Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 1041.681560675,
+        "SHAPElen": 130.3278522856645
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 103,
+        "ReserveName": "Sutherland Stream Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/sutherland-stream",
+        "Description": "This reserve runs from the base of the Wither Hills Farm Park (Redwood Street) to Whitehead Park (Brooklyn Drive) and provides a walk/bike link between these parks. It is also a designated dog exercise area and a flood control catchment area in times of heavy rain, meaning the reserve will be inaccessible when in flood.",
+        "SHAPEarea": 38073.75737663,
+        "SHAPElen": 2968.9221848425873
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 104,
+        "ReserveName": "Taylor Dam Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/taylor-dam",
+        "Description": "Built in 1965 to control flooding within Blenheim, the dam reserve has become a sanctuary for teal, black swan, pukeko and duck. This attractive setting is an excellent place to picnic, play or walk.",
+        "SHAPEarea": 134678.87681192,
+        "SHAPElen": 2600.9367837206737
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 105,
+        "ReserveName": "Taylor River Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/taylor-river-reserve",
+        "Description": "Approximately 4.6 km of concrete paths snake their way on both sides of the Taylor River providing walking/biking access from Riverside Park to Brayshaw Park. The river itself can be canoed or kayaked and it is a designated dog exercise area with doggy bag stations provided at most car parks. The Taylor River Trail, (south of Brayshaw Park/new Renwick Road) is a chip path, ideal for mountain bikers, walkers and runners and continues another 5 km south down to the Taylor Dam Reserve.",
+        "SHAPEarea": 429205.50100659,
+        "SHAPElen": 7667.716303459886
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 106,
+        "ReserveName": "Thorburns Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 776.115807395,
+        "SHAPElen": 119.33934481518946
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 107,
+        "ReserveName": "Tirimoana Reserve",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/tirimoana-reserve",
+        "Description": "A landscaped open space for informal recreation and activities.",
+        "SHAPEarea": 25689.01562322,
+        "SHAPElen": 1506.6613898821672
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 108,
+        "ReserveName": "Tremorne Avenue",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 11107.345668545,
+        "SHAPElen": 1068.3893147649046
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 109,
+        "ReserveName": "Tunnicliff Reserve",
+        "Location": "Marlborough Sounds",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/tunnicliff-reserve",
+        "Description": "A landscaped open space for informal recreation and activities.",
+        "SHAPEarea": 4946.271143805,
+        "SHAPElen": 282.4401334455833
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 110,
+        "ReserveName": "Upper Spring Creek Lions Reserve",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 8647.796202555,
+        "SHAPElen": 1225.1557544852558
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 111,
+        "ReserveName": "Victoria Domain",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/victoria-domain",
+        "Description": "Overlooking Picton Harbour and Queen Charlotte Sound, the forested expanse of Victoria Domain offers the opportunity for picnicking, walking and scenic views. A drive along the Ridge Road caters for the less energetic while an extensive walking track and mountain bike network will readily satisfy more adventurous souls.",
+        "SHAPEarea": 1967442.44734333,
+        "SHAPElen": 13925.37020050787
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 112,
+        "ReserveName": "Victoria Park Play Area",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/victoria-domain",
+        "Description": null,
+        "SHAPEarea": 1401.947561885,
+        "SHAPElen": 188.40960184612644
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 113,
+        "ReserveName": "Vorbach Place Reserve",
+        "Location": "Renwick",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/vorbach-reserve",
+        "Description": "Small neighbourhood reserve with play equipment.",
+        "SHAPEarea": 799.1770007,
+        "SHAPElen": 111.57723706406904
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 114,
+        "ReserveName": "Waikawa Foreshore Reserve",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/waikawa-foreshore-reserve",
+        "Description": "A great beach with playground and BBQ facilities. Popular boat launching ramp.",
+        "SHAPEarea": 9893.350241965,
+        "SHAPElen": 720.6892249461104
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 115,
+        "ReserveName": "Waikawa Rd Esplanade Strip",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 1895.23971496,
+        "SHAPElen": 666.8108333969825
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 116,
+        "ReserveName": "Waikawa Stream Picnic Area",
+        "Location": "Picton",
+        "Type": "Reserve",
+        "WebsiteURL": null,
+        "Description": null,
+        "SHAPEarea": 658.4626341,
+        "SHAPElen": 122.73730846368824
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 117,
+        "ReserveName": "Waitohi Domain",
+        "Location": "Picton",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/waitohi-domain",
+        "Description": "A large open green space that is available for public use. Squash courts are adjacent to the reserve and run on a green fee system.",
+        "SHAPEarea": 20260.045552815,
+        "SHAPElen": 618.2976995675389
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 118,
+        "ReserveName": "Ward Beach",
+        "Location": "Awatere and Flaxbourne",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/ward-beach-reserve",
+        "Description": "An interesting exposed section of coast which is also used by the local fishing industry.",
+        "SHAPEarea": 20016.4885535,
+        "SHAPElen": 849.4210315959051
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 119,
+        "ReserveName": "Ward Domain",
+        "Location": "Awatere and Flaxbourne",
+        "Type": "Reserve/Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/ward-domain",
+        "Description": "A historic domain used for cricket and tennis and the annual Flaxbourne A & P Show.",
+        "SHAPEarea": 61025.496779595,
+        "SHAPElen": 1032.932857766763
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 120,
+        "ReserveName": "Whitehead Park",
+        "Location": "Blenheim",
+        "Type": "Sports Park",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/whitehead-park",
+        "Description": "Combining a synthetic lawn bowling green with an extensive croquet green, Whitehead Park is a modern, attractive venue offering good parking and large clubhouse facilties for members. There is a link track from Sutherland Stream through to Alabama Road.",
+        "SHAPEarea": 24442.98158256,
+        "SHAPElen": 710.8716454928284
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 121,
+        "ReserveName": "Wither Hills Farm Park",
+        "Location": "Blenheim",
+        "Type": "Reserve",
+        "WebsiteURL": "https://eservices.marlborough.govt.nz/facilities/facility/wither-hills-farm-park",
+        "Description": "A working sheep and cattle farm covering 1,100 ha, the Wither Hills Farm Park extends the full length of the southern boundary of the Blenheim urban area, offering a magnificent recreational opportunity for locals and visitors alike. The park boasts an extensive network of walkways and tracks that guide you to a variety of tree-lined valleys and breathtaking hill-top vantage points overlooking Blenheim, Wairau basin and lagoons, and the North Island. ",
+        "SHAPEarea": 10973808.821859036,
+        "SHAPElen": 21253.0630850478
+      }
+    }
+  ]
+}
