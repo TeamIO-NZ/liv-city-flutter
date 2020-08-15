@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:liv_city_flutter/main.dart';
 import 'package:liv_city_flutter/screen/chat_screen.dart';
 import 'package:liv_city_flutter/screen/home_screen.dart';
+import 'package:liv_city_flutter/screen/personal_screen.dart';
 
 class QuestionsScreen extends StatefulWidget {
   @override
@@ -102,6 +103,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
               TabItem(icon: Icons.home, title: 'Home'),
               TabItem(icon: Icons.map, title: 'Places'),
               TabItem(icon: Icons.chat, title: 'Feedback'),
+              TabItem(icon: Icons.account_circle, title: 'Personal'),
             ],
             style: TabStyle.textIn,
             initialActiveIndex: 1,
@@ -110,6 +112,10 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
                 Navigator.of(context).pushReplacement(NoAnimationMaterialPageRoute(builder: (context) => HomeScreen()));
               } else if (i == 2) {
                 Navigator.of(context).pushReplacement(NoAnimationMaterialPageRoute(builder: (context) => ChatScreen()));
+              } else if (i == 3) {
+                Navigator.of(context).pushReplacement(
+                    NoAnimationMaterialPageRoute(
+                        builder: (context) => PersonalScreen()));
               }
             }
         ),

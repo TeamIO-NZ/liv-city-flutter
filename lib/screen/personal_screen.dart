@@ -1,16 +1,19 @@
+import 'dart:math';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:liv_city_flutter/main.dart';
+import 'package:liv_city_flutter/screen/chat_screen.dart';
 import 'package:liv_city_flutter/screen/home_screen.dart';
-import 'package:liv_city_flutter/screen/personal_screen.dart';
 import 'package:liv_city_flutter/screen/questions_screen.dart';
 
-class ChatScreen extends StatefulWidget {
+class PersonalScreen extends StatefulWidget {
   @override
-  _ChatScreenState createState() => _ChatScreenState();
+  _PersonalScreenState createState() => _PersonalScreenState();
 }
 
-class _ChatScreenState extends State<ChatScreen> {
+class _PersonalScreenState extends State<PersonalScreen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -30,7 +33,7 @@ class _ChatScreenState extends State<ChatScreen> {
               Visibility(
                 visible: true,
                 child: Text(
-                  'Chat with Liv',
+                  'Personal Logs',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 12.0,
@@ -53,9 +56,13 @@ class _ChatScreenState extends State<ChatScreen> {
             child: Stack(
               children: [
                 ListView.builder(
-                  itemCount: 4,
-                  itemBuilder: (context, index) =>
-                      MessageTile(message: "Test", sendByMe: (index % 2 == 0)),
+                  itemCount: 400,
+                  itemBuilder: (context, index) {
+                    return ListTile(
+                      title: Text("Tree"),
+                      leading: Icon(Icons.nature),
+                    );
+                  }
                 ),
               ],
             )),
@@ -70,7 +77,7 @@ class _ChatScreenState extends State<ChatScreen> {
               TabItem(icon: Icons.account_circle, title: 'Personal'),
             ],
             style: TabStyle.textIn,
-            initialActiveIndex: 2,
+            initialActiveIndex: 3,
             onTap: (i) {
               if (i == 1) {
                 Navigator.of(context).pushReplacement(
@@ -80,56 +87,12 @@ class _ChatScreenState extends State<ChatScreen> {
                 Navigator.of(context).pushReplacement(
                     NoAnimationMaterialPageRoute(
                         builder: (context) => HomeScreen()));
-              } else if (i == 3) {
+              } else if (i == 2) {
                 Navigator.of(context).pushReplacement(
                     NoAnimationMaterialPageRoute(
-                        builder: (context) => PersonalScreen()));
+                        builder: (context) => ChatScreen()));
               }
             }),
-      ),
-    );
-  }
-}
-
-class MessageTile extends StatelessWidget {
-  final String message;
-  final bool sendByMe;
-
-  MessageTile({@required this.message, @required this.sendByMe});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.only(
-          top: 8, bottom: 8, left: sendByMe ? 0 : 24, right: sendByMe ? 24 : 0),
-      alignment: sendByMe ? Alignment.centerRight : Alignment.centerLeft,
-      child: Container(
-        margin:
-            sendByMe ? EdgeInsets.only(left: 30) : EdgeInsets.only(right: 30),
-        padding: EdgeInsets.only(top: 17, bottom: 17, left: 20, right: 20),
-        decoration: BoxDecoration(
-            borderRadius: sendByMe
-                ? BorderRadius.only(
-                    topLeft: Radius.circular(23),
-                    topRight: Radius.circular(23),
-                    bottomLeft: Radius.circular(23))
-                : BorderRadius.only(
-                    topLeft: Radius.circular(23),
-                    topRight: Radius.circular(23),
-                    bottomRight: Radius.circular(23)),
-            gradient: LinearGradient(
-              colors: sendByMe
-                  ? [const Color(0xff007EF4), const Color(0xff007EF4)]
-                  : [const Color(0xff78909C), const Color(0xff78909C)],
-                //  : [const Color(0x1AFFFFFF), const Color(0x1AFFFFFF)],
-            )),
-        child: Text(message,
-            textAlign: TextAlign.start,
-            style: TextStyle(
-                color: Colors.white,
-                fontSize: 16,
-                fontFamily: 'OverpassRegular',
-                fontWeight: FontWeight.w300)),
       ),
     );
   }
