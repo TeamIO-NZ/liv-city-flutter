@@ -1,3 +1,4 @@
+import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:flutter/material.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:liv_city_flutter/main.dart';
@@ -13,6 +14,12 @@ class ChatScreen extends StatefulWidget {
 class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
+    AssetsAudioPlayer.newPlayer().open(
+      Audio("assets/liv_hi.mp3"),
+      autoStart: true,
+      showNotification: false,
+      loopMode: LoopMode.none
+    );
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(

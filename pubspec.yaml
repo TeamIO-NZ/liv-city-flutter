@@ -29,6 +29,7 @@ dependencies:
   flutter_signin_button: ^1.0.0
   json_serializable: ^3.4.0
   flutter_rating_bar: ^3.0.1+1
+  assets_audio_player: ^2.0.9+2
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +55,7 @@ flutter:
     - assets/parks/3.jpg
     - assets/places.json
     - assets/logo.png
+    - assets/liv_hi.mp3
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
