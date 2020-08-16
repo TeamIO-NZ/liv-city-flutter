@@ -53,12 +53,36 @@ class _ChatScreenState extends State<ChatScreen> {
           child: Stack(
             children: [
               ListView.builder(
-                  itemCount: 4,
+                  itemCount: 7,
                   itemBuilder: (context, index) {
                     switch (index) {
                       case 0:
                         return MessageTile(
-                            message: "Test", sendByMe: (index % 2 == 0));
+                            message: "Hello", sendByMe: false);
+                        break;
+                      case 1:
+                        return MessageTile(
+                            message: "Hi", sendByMe: true);
+                        break;
+                      case 2:
+                        return MessageTile(
+                            message: "If you have time, may I ask you a question submitted by Dr Peter Ivory on pollution?", sendByMe: false);
+                        break;
+                      case 3:
+                        return MessageTile(
+                            message: "Sure", sendByMe: true);
+                        break;
+                      case 4:
+                        return MessageTile(
+                            message: "How much litter do you observer on your day to day life in your general area?", sendByMe: false);
+                        break;
+                      case 5:
+                        return MessageTile(
+                            message: "I usually see cans and small litter dissuaded in my local area. I have noticed that there are no public bins around my area.", sendByMe: true);
+                        break;
+                      case 6:
+                        return MessageTile(
+                            message: "Thank you for your answer, we will get back to you on our findings 😊", sendByMe: false);
                         break;
                       default:
                         return MessageTile(
@@ -95,6 +119,10 @@ class _ChatScreenState extends State<ChatScreen> {
                         builder: (context) => PersonalScreen()));
               }
             }),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.mic),
+          onPressed: () {},
+        ),
       ),
     );
   }
