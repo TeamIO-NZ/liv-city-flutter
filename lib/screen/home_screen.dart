@@ -53,9 +53,12 @@ class _HomeScreenState extends State<HomeScreen> {
             constraints: BoxConstraints.expand(),
             child: Column(
               children: [
-                Image(
-                  image: AssetImage("assets/govhack.png"),
-                  height: 250,
+                Padding(
+                  padding: const EdgeInsets.only(top: 124.0),
+                  child: Image(
+                    image: AssetImage("assets/logo.png"),
+                    height: 250,
+                  ),
                 ),
                 Spacer(),
                 Column(
